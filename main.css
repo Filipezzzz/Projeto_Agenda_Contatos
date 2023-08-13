@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body header h1 {
+    font-size: 40px;
+    padding: 40px 0 20px ;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body #nome-contato {
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 9px;
+    border: none;
+}
+
+
+body #numero-contato {
+    padding: 5px;
+    border-radius: 9px;
+    border: none;
+}
+
+
+form button {
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    max-width: 900px;
+}
+
+table thead td{
+    border-bottom: 2px solid black;
+    padding: 24px 70px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+table tbody td{
+    padding: 36px 95px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 400px;
+
+}
